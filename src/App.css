@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+body {
+  transition: background-color 2s;
+}
+
+#quote-box {
+  border-radius: 3px;
+  position: relative;
+  margin: 8% auto auto auto;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#text {
+  transition: all 2s;
+}
+
+#author {
+  transition: all 2s;
+}
+
+button {
+  width: 450px;
+  margin: auto;
+  display: block;
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  color: white;
+  transition: background-color 2s;
+}
